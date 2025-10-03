@@ -1,9 +1,9 @@
-API Simples de Gestão de Estudantes
+# API Simples de Gestão de Estudantes
 
-Esta é uma API RESTful simples, construída com Python e Flask, para gerir um registo de estudantes. Permite criar, listar e consultar estudantes, armazenando os dados numa base de dados SQLite.
+## Esta é uma API RESTful simples, construída com Python e Flask, para gerir um registo de estudantes. Permite criar, listar e consultar estudantes, armazenando os dados numa base de dados SQLite.
 
-Este projeto foi desenvolvido como um exercício prático para avaliar conceitos de lógica de programação, sintaxe, manipulação de estruturas de dados simples e desenvolvimento de APIs.
-Funcionalidades
+## Este projeto foi desenvolvido como um exercício prático para avaliar conceitos de lógica de programação, sintaxe, manipulação de estruturas de dados simples e desenvolvimento de APIs.
+### Funcionalidades
 
     Registar Estudante: Adiciona um novo estudante com nome e nota.
 
@@ -15,15 +15,15 @@ Funcionalidades
 
     Lógica Personalizada: Para cada estudante retornado, calcula a primeira letra do nome que não se repete.
 
-Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
-    Python 3: Linguagem de programação principal.
+    Python3: Linguagem de programação principal.
 
     Flask: Micro-framework web para a criação da API.
 
     SQLite: Base de dados SQL para armazenamento persistente dos dados.
 
-Pré-requisitos
+### Pré-requisitos
 
 Antes de começar, garanta que tem o seguinte software instalado:
 
@@ -31,13 +31,13 @@ Antes de começar, garanta que tem o seguinte software instalado:
 
     venv (normalmente incluído com a instalação do Python)
 
-Configuração do Projeto
+### Configuração do Projeto
 
 Siga os passos abaixo para configurar o ambiente de desenvolvimento.
 
     Clone o repositório (ou crie a pasta do projeto):
 
-    git clone https://... # (se estiver num repositório git)
+    git clone https://... 
     cd nome-da-pasta
 
     Crie e ative um ambiente virtual:
@@ -61,14 +61,15 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento.
 
     pip install Flask
 
-Como Executar a API
+### Como Executar a API
 
 Com o ambiente virtual ativado, execute o seguinte comando no terminal para iniciar o servidor:
 
 python api.py
 
-O servidor estará a correr em http://127.0.0.1:5000.
-Endpoints da API
+O servidor estará rodando em http://127.0.0.1:5000.
+
+### Endpoints da API
 
 A seguir estão detalhados os endpoints disponíveis.
 1. Registar um Estudante
@@ -154,7 +155,7 @@ A seguir estão detalhados os endpoints disponíveis.
             "error": "Student not found"
         }
 
-Como Testar (usando curl)
+### Como Testar (usando curl)
 
 Abra um novo terminal (deixe o servidor a correr no primeiro) e use os seguintes comandos:
 
