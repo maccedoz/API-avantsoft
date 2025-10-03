@@ -67,7 +67,7 @@ Com o ambiente virtual ativado, execute o seguinte comando no terminal para inic
 
 python api.py
 
-O servidor estará rodando em http://127.0.0.1:5000.
+O servidor estará rodando em http://127.0.0.1:5000/students
 
 ### Endpoints da API
 
